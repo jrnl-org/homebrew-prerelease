@@ -3,8 +3,8 @@ class JrnlBeta < Formula
 
   desc "Command-line note taker"
   homepage "https://jrnl.sh/"
-  url "https://files.pythonhosted.org/packages/be/56/20e494eb2a7be914f05c43048ed1e42bc3eb34515319aa1a72e5fabb7d98/jrnl-2.4.5.tar.gz"
-  sha256 "a5f069efcaa3f5d95cc7712178b3f92915f67eed4034e5f257cc063c6b0e74d9"
+  url "https://files.pythonhosted.org/packages/c6/e6/f398f0762f31d0088c7badb3ab4856a7a3da03c17dac79ed255dfaeceac7/jrnl-2.5b0.tar.gz"
+  sha256 "35857394107d8de11567ba04878548f129a0f920f8f5e95cfd3159a85e0dc2e9"
   license "GPL-3.0"
 
   livecheck do
@@ -27,29 +27,34 @@ class JrnlBeta < Formula
     depends_on "pkg-config" => :build
   end
 
+  resource "ansiwrap" do
+    url "https://files.pythonhosted.org/packages/7c/45/2616341cfcace37d4619d5106a85fcc24f2170d1a161bc5f7fdb81772fbc/ansiwrap-0.8.4.zip"
+    sha256 "ca0c740734cde59bf919f8ff2c386f74f9a369818cdc60efe94893d01ea8d9b7"
+  end
+
   resource "asteval" do
-    url "https://files.pythonhosted.org/packages/e4/3b/8aaee90977588fa3e88d7a495af306d6f4a1c1c01c8f0fe0de1fc43d0908/asteval-0.9.18.tar.gz"
-    sha256 "5d64e18b8a72c2c7ae8f9b70d1f80b68bbcaa98c1c0d7047c35489d03209bc86"
+    url "https://files.pythonhosted.org/packages/4d/35/140edd280047b77aef487a8840c0f60372ab15210eb8064e5de9b832730c/asteval-0.9.19.tar.gz"
+    sha256 "445f3a59df692c0c0ff2868c0bbf9b293884db4a9f9a13c73555485ba75ed08b"
   end
 
   resource "cffi" do
-    url "https://files.pythonhosted.org/packages/54/1d/15eae71ab444bd88a1d69f19592dcf32b9e3166ecf427dd9243ef0d3b7bc/cffi-1.14.1.tar.gz"
-    sha256 "b2a2b0d276a136146e012154baefaea2758ef1f56ae9f4e01c612b0831e0bd2f"
+    url "https://files.pythonhosted.org/packages/cb/ae/380e33d621ae301770358eb11a896a34c34f30db188847a561e8e39ee866/cffi-1.14.3.tar.gz"
+    sha256 "f92f789e4f9241cd262ad7a555ca2c648a98178a953af117ef7fad46aa1d5591"
   end
 
   resource "colorama" do
-    url "https://files.pythonhosted.org/packages/82/75/f2a4c0c94c85e2693c229142eb448840fba0f9230111faa889d1f541d12d/colorama-0.4.3.tar.gz"
-    sha256 "e96da0d330793e2cb9485e9ddfd918d456036c7149416295932478192f4436a1"
+    url "https://files.pythonhosted.org/packages/1f/bb/5d3246097ab77fa083a61bd8d3d527b7ae063c7d8e8671b1cf8c4ec10cbe/colorama-0.4.4.tar.gz"
+    sha256 "5941b2b48a20143d2267e95b1c2a7603ce057ee39fd88e7329b0c292aa16869b"
   end
 
   resource "cryptography" do
-    url "https://files.pythonhosted.org/packages/56/3b/78c6816918fdf2405d62c98e48589112669f36711e50158a0c15d804c30d/cryptography-2.9.2.tar.gz"
-    sha256 "a0c30272fb4ddda5f5ffc1089d7405b7a71b0b0f51993cb4e5dbb4590b2fc229"
+    url "https://files.pythonhosted.org/packages/5d/4b/7bb135c5787c003cdbc44990c5f41908f0f37135e0bb554e880d90fd5f6f/cryptography-3.1.1.tar.gz"
+    sha256 "9d9fc6a16357965d282dd4ab6531013935425d0dc4950df2e0cf2a1b1ac1017d"
   end
 
   resource "keyring" do
-    url "https://files.pythonhosted.org/packages/a6/52/eb8a0e13b54ec9240c7dd68fcd0951c52f62033d438af372831af770f7cc/keyring-21.2.1.tar.gz"
-    sha256 "c53e0e5ccde3ad34284a40ce7976b5b3a3d6de70344c3f8ee44364cc340976ec"
+    url "https://files.pythonhosted.org/packages/3e/79/da95ce71b572ce01c268492957cc4c1055da6f683077a6caba10944dc4f2/keyring-21.4.0.tar.gz"
+    sha256 "9aeadd006a852b78f4b4ef7c7556c2774d2432bbef8ee538a3e9089ac8b11466"
   end
 
   resource "packaging" do
@@ -63,8 +68,8 @@ class JrnlBeta < Formula
   end
 
   resource "passlib" do
-    url "https://files.pythonhosted.org/packages/6d/6b/4bfca0c13506535289b58f9c9761d20f56ed89439bfe6b8e07416ce58ee1/passlib-1.7.2.tar.gz"
-    sha256 "8d666cef936198bc2ab47ee9b0410c94adf2ba798e5a84bf220be079ae7ab6a8"
+    url "https://files.pythonhosted.org/packages/b6/06/9da9ee59a67fae7761aab3ccc84fa4f3f33f125b370f1ccdb915bf967c11/passlib-1.7.4.tar.gz"
+    sha256 "defd50f72b65c5402ab2c573830a6978e5f202ad0d984793c8dde2c4152ebe04"
   end
 
   resource "pycparser" do
