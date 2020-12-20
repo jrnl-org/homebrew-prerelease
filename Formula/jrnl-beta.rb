@@ -3,9 +3,9 @@ class JrnlBeta < Formula
 
   desc "Command-line note taker"
   homepage "https://jrnl.sh/"
-  url "https://files.pythonhosted.org/packages/5e/0e/e99c6067dcb7e78c013affbe8d1eda8174ba5aca63e430d4e726971da472/jrnl-2.6b0.tar.gz"
-  version "2.6b0"
-  sha256 "d591e1a979e5f19486fe65d314d7834d3cccfc49728a0d1dd480717a1f51a103"
+  url "https://files.pythonhosted.org/packages/cf/19/085138fdff9420286f628c70911c46f80a4f957f9384b76ccbbafe367cf0/jrnl-2.6b5.tar.gz"
+  version "2.6b5"
+  sha256 "21744dd188867f646bc9115f256e13137dad593bfd433bc13fe61ec9e5169400"
   license "GPL-3.0"
 
   livecheck do
