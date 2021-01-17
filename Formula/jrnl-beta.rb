@@ -3,9 +3,9 @@ class JrnlBeta < Formula
 
   desc "Command-line note taker"
   homepage "https://jrnl.sh/"
-  url "https://files.pythonhosted.org/packages/cf/19/085138fdff9420286f628c70911c46f80a4f957f9384b76ccbbafe367cf0/jrnl-2.6b5.tar.gz"
-  version "2.6b5"
-  sha256 "21744dd188867f646bc9115f256e13137dad593bfd433bc13fe61ec9e5169400"
+  url "https://files.pythonhosted.org/packages/ca/8c/f550a24ce3a8bb8e32e68afb278bd3313a6f484417ce064e58cc975eadc4/jrnl-2.7b0.tar.gz"
+  version "2.7b0"
+  sha256 "e12164da138ad75b6ba0f82a4cd720e31961601ecc96a8ca168436c704a2ac37"
   license "GPL-3.0"
 
   livecheck do
@@ -54,8 +54,8 @@ class JrnlBeta < Formula
   end
 
   resource "keyring" do
-    url "https://files.pythonhosted.org/packages/c9/5a/c7aefc112d75872ea2099c494b84ba6e108b20584264929e614c60939368/keyring-21.5.0.tar.gz"
-    sha256 "207bd66f2a9881c835dad653da04e196c678bf104f8252141d2d3c4f31051579"
+    url "https://files.pythonhosted.org/packages/19/c7/e1a9c556745518c9c3d46613c10a968757b16e29341ec8e0815fd07e0f93/keyring-21.8.0.tar.gz"
+    sha256 "1746d3ac913d449a090caf11e9e4af00e26c3f7f7e81027872192b2398b98675"
   end
 
   resource "parsedatetime" do
@@ -74,8 +74,8 @@ class JrnlBeta < Formula
   end
 
   resource "pytz" do
-    url "https://files.pythonhosted.org/packages/09/07/448a8887c7195450604dfc0305d80d74324c36ee18ed997664051d4bffe3/pytz-2020.4.tar.gz"
-    sha256 "3e6b7dd2d1e0a59084bcee14a17af60c5c562cdc16d828e8eba2e683d3a7e268"
+    url "https://files.pythonhosted.org/packages/70/44/404ec10dca553032900a65bcded8b8280cf7c64cc3b723324e2181bf93c9/pytz-2020.5.tar.gz"
+    sha256 "180befebb1927b16f6b57101720075a984c019ac16b1b7575673bea42c6c3da5"
   end
 
   resource "pyxdg" do
