@@ -3,8 +3,9 @@ class JrnlBeta < Formula
 
   desc "Command-line note taker"
   homepage "https://jrnl.sh/"
-  url "https://files.pythonhosted.org/packages/38/37/05cefb62bfdb8c02429a565393dc1847740364af4d11f89efb3a06ff3d52/jrnl-2.7.1.tar.gz"
-  sha256 "53fa205afc3853c5e93ecf2bdcef2208331cc8ce235bfe864edfe936780888ca"
+  url "https://files.pythonhosted.org/packages/77/48/6c9cf73f34cee1f1578c6ad07d151dd6aa9ba63fd4d1f1811f9b20d06309/jrnl-2.8b0.tar.gz"
+  version "2.8b0"
+  sha256 "b01d1cf129f6eee3f305c3d13d6cd1d3fe6e64bccd08571c2bd20e822c5584fe"
   license "GPL-3.0-only"
 
   bottle do
@@ -48,9 +49,14 @@ class JrnlBeta < Formula
     sha256 "2d32223e5b0ee02943f32b19245b61a62db83a882f0e76cc564e1cec60d48f87"
   end
 
+  resource "importlib-metadata" do
+    url "https://files.pythonhosted.org/packages/99/23/aac25e607237feabe8d076932d27a590341001a9bf8a1e4149ee1c3c3c40/importlib_metadata-3.7.3.tar.gz"
+    sha256 "742add720a20d0467df2f444ae41704000f50e1234f46174b51f9c6031a1bd71"
+  end
+
   resource "keyring" do
-    url "https://files.pythonhosted.org/packages/bd/4f/76c58e52c08ac53ffed2f3d463cd72799adca2aba3e357c7b727baeb8ff6/keyring-22.3.0.tar.gz"
-    sha256 "16927a444b2c73f983520a48dec79ddab49fe76429ea05b8d528d778c8339522"
+    url "https://files.pythonhosted.org/packages/e8/3e/4daf55c21dc38dfa39a5780fb1c9a15dbbe8d680a715b0c81c29be51662c/keyring-23.0.0.tar.gz"
+    sha256 "237ff44888ba9b3918a7dcb55c8f1db909c95b6f071bfb46c6918f33f453a68a"
   end
 
   resource "parsedatetime" do
@@ -96,6 +102,11 @@ class JrnlBeta < Formula
   resource "tzlocal" do
     url "https://files.pythonhosted.org/packages/ce/73/99e4cc30db6b21cba6c3b3b80cffc472cc5a0feaf79c290f01f1ac460710/tzlocal-2.1.tar.gz"
     sha256 "643c97c5294aedc737780a49d9df30889321cbe1204eac2c2ec6134035a92e44"
+  end
+
+  resource "zipp" do
+    url "https://files.pythonhosted.org/packages/38/f9/4fa6df2753ded1bcc1ce2fdd8046f78bd240ff7647f5c9bcf547c0df77e3/zipp-3.4.1.tar.gz"
+    sha256 "3607921face881ba3e026887d8150cca609d517579abe052ac81fc5aeffdbd76"
   end
 
   resource "asn1crypto" do
