@@ -3,9 +3,9 @@ class JrnlBeta < Formula
 
   desc "Command-line note taker"
   homepage "https://jrnl.sh/"
-  url "https://files.pythonhosted.org/packages/77/48/6c9cf73f34cee1f1578c6ad07d151dd6aa9ba63fd4d1f1811f9b20d06309/jrnl-2.8b0.tar.gz"
-  version "2.8b0"
-  sha256 "b01d1cf129f6eee3f305c3d13d6cd1d3fe6e64bccd08571c2bd20e822c5584fe"
+  url "https://files.pythonhosted.org/packages/45/ff/5b35ee6f33ad432259db2f45c315a3363e0ef755fa7b70e9b3f620d02517/jrnl-2.8.1b0.tar.gz"
+  version "2.8.1b0"
+  sha256 "571e1345bda64ffad1d9db626b1bb9b40e695cb9e2354aa0b73b27f24aea4410"
   license "GPL-3.0-only"
 
   depends_on "rust" => :build
@@ -38,18 +38,18 @@ class JrnlBeta < Formula
   end
 
   resource "cryptography" do
-    url "https://files.pythonhosted.org/packages/fa/2d/2154d8cb773064570f48ec0b60258a4522490fcb115a6c7c9423482ca993/cryptography-3.4.6.tar.gz"
-    sha256 "2d32223e5b0ee02943f32b19245b61a62db83a882f0e76cc564e1cec60d48f87"
+    url "https://files.pythonhosted.org/packages/9b/77/461087a514d2e8ece1c975d8216bc03f7048e6090c5166bc34115afdaa53/cryptography-3.4.7.tar.gz"
+    sha256 "3d10de8116d25649631977cb37da6cbdd2d6fa0e0281d014a5b7d337255ca713"
   end
 
   resource "importlib-metadata" do
-    url "https://files.pythonhosted.org/packages/99/23/aac25e607237feabe8d076932d27a590341001a9bf8a1e4149ee1c3c3c40/importlib_metadata-3.7.3.tar.gz"
-    sha256 "742add720a20d0467df2f444ae41704000f50e1234f46174b51f9c6031a1bd71"
+    url "https://files.pythonhosted.org/packages/9a/5a/5bee793e43f6499b7e28de7c0333f49752590826b08a456f3874f555f4f5/importlib_metadata-4.0.0.tar.gz"
+    sha256 "2e881981c9748d7282b374b68e759c87745c25427b67ecf0cc67fb6637a1bff9"
   end
 
   resource "keyring" do
-    url "https://files.pythonhosted.org/packages/e8/3e/4daf55c21dc38dfa39a5780fb1c9a15dbbe8d680a715b0c81c29be51662c/keyring-23.0.0.tar.gz"
-    sha256 "237ff44888ba9b3918a7dcb55c8f1db909c95b6f071bfb46c6918f33f453a68a"
+    url "https://files.pythonhosted.org/packages/b0/b5/b27458e1d2adf2a11c6e95c67ac63f828e96fe7e166132e5dacbe03e88c0/keyring-23.0.1.tar.gz"
+    sha256 "045703609dd3fccfcdb27da201684278823b72af515aedec1a8515719a038cb8"
   end
 
   resource "parsedatetime" do
