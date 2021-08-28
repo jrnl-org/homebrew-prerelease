@@ -3,8 +3,8 @@ class JrnlBeta < Formula
 
   desc "Command-line note taker"
   homepage "https://jrnl.sh/"
-  url "https://files.pythonhosted.org/packages/eb/29/0a133d2a95e68fc7b8964ce65ab37eb1ae922387c743d52bfc51d1a47a8f/jrnl-2.8.2.tar.gz"
-  sha256 "102e1f559fe4e791cd1a456efd4c5b2c5893703285a881c54a8f55e437e95eff"
+  url "https://files.pythonhosted.org/packages/cf/58/cb9dcb99f922b22bc5bb9fc795365e9753890dd4a24410ab144f3344489c/jrnl-2.8.3b0.tar.gz"
+  sha256 "7078a2bfecfb32fb9999bdd63f42f5e2a97e4df58fc63958ce0b1c0492bd9ccf"
   license "GPL-3.0-only"
 
   depends_on "rust" => :build
@@ -37,18 +37,18 @@ class JrnlBeta < Formula
   end
 
   resource "cryptography" do
-    url "https://files.pythonhosted.org/packages/9b/77/461087a514d2e8ece1c975d8216bc03f7048e6090c5166bc34115afdaa53/cryptography-3.4.7.tar.gz"
-    sha256 "3d10de8116d25649631977cb37da6cbdd2d6fa0e0281d014a5b7d337255ca713"
+    url "https://files.pythonhosted.org/packages/cc/98/8a258ab4787e6f835d350639792527d2eb7946ff9fc0caca9c3f4cf5dcfe/cryptography-3.4.8.tar.gz"
+    sha256 "94cc5ed4ceaefcbe5bf38c8fba6a21fc1d365bb8fb826ea1688e3370b2e24a1c"
   end
 
   resource "importlib-metadata" do
-    url "https://files.pythonhosted.org/packages/58/f1/9b77b8aa38482b7c284b8f8eda8b99d3b1103a280f107bab362a1c518c92/importlib_metadata-4.6.3.tar.gz"
-    sha256 "0645585859e9a6689c523927a5032f2ba5919f1f7d0e84bd4533312320de1ff9"
+    url "https://files.pythonhosted.org/packages/d5/e7/b716bf428edb23df5b04a15ac1c2c1acbae8bca3a84991805261f6f47577/importlib_metadata-4.7.1.tar.gz"
+    sha256 "c4eb3dec5f697682e383a39701a7de11cd5c02daf8dd93534b69e3e6473f6b1b"
   end
 
   resource "keyring" do
-    url "https://files.pythonhosted.org/packages/b0/b5/b27458e1d2adf2a11c6e95c67ac63f828e96fe7e166132e5dacbe03e88c0/keyring-23.0.1.tar.gz"
-    sha256 "045703609dd3fccfcdb27da201684278823b72af515aedec1a8515719a038cb8"
+    url "https://files.pythonhosted.org/packages/cc/ff/89ec0e9c71181f631b7892a290b0a159875354b207b33e5012d3bcdf71b1/keyring-23.1.0.tar.gz"
+    sha256 "b7e0156667f5dcc73c1f63a518005cd18a4eb23fe77321194fefcc03748b21a4"
   end
 
   resource "parsedatetime" do
