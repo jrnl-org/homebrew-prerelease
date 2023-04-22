@@ -3,8 +3,8 @@ class JrnlBeta < Formula
 
   desc "Command-line note taker"
   homepage "https://jrnl.sh/"
-  url "https://files.pythonhosted.org/packages/11/1a/ef8b1956aab479efe3086bc7b129ff2286ea4222377922d38df85fb7806d/jrnl-4.0b0.tar.gz"
-  sha256 "b4db804e5cc9a338f8482160ee10a4a8a2f1f49f5b0a5c0d612dcbb643f1b58b"
+  url "https://files.pythonhosted.org/packages/d0/58/d5ad1533f81ddca23c7dc2e0a4dbe08b59a51a119c5995e49825e21287bd/jrnl-4.0b2.tar.gz"
+  sha256 "365c03d244ce8037ad29871ce7b681b48d8c794fdef42f9614a15287095bea75"
   license "GPL-3.0-only"
 
   depends_on "rust" => :build
@@ -32,13 +32,13 @@ class JrnlBeta < Formula
   end
 
   resource "cryptography" do
-    url "https://files.pythonhosted.org/packages/15/d9/c679e9eda76bfc0d60c9d7a4084ca52d0631d9f24ef04f818012f6d1282e/cryptography-40.0.1.tar.gz"
-    sha256 "2803f2f8b1e95f614419926c7e6f55d828afc614ca5ed61543877ae668cc3472"
+    url "https://files.pythonhosted.org/packages/f7/80/04cc7637238b78f8e7354900817135c5a23cf66dfb3f3a216c6d630d6833/cryptography-40.0.2.tar.gz"
+    sha256 "c33c0d32b8594fa647d2e01dbccc303478e16fdd7cf98652d5b3ed11aa5e5c99"
   end
 
   resource "importlib-metadata" do
-    url "https://files.pythonhosted.org/packages/e2/d8/3d431bade4598ad9e33be9da41d15e6607b878008e922d122659ab01b077/importlib_metadata-6.1.0.tar.gz"
-    sha256 "43ce9281e097583d758c2c708c4376371261a02c34682491a8e98352365aad20"
+    url "https://files.pythonhosted.org/packages/0b/1f/9de392c2b939384e08812ef93adf37684ec170b5b6e7ea302d9f163c2ea0/importlib_metadata-6.6.0.tar.gz"
+    sha256 "92501cdf9cc66ebd3e612f1b4f0c0765dfa42f0fa38ffb319b6bd84dd675d705"
   end
 
   resource "jaraco.classes" do
@@ -77,8 +77,8 @@ class JrnlBeta < Formula
   end
 
   resource "Pygments" do
-    url "https://files.pythonhosted.org/packages/da/6a/c427c06913204e24de28de5300d3f0e809933f376e0b7df95194b2bb3f71/Pygments-2.14.0.tar.gz"
-    sha256 "b3ed06a9e8ac9a9aae5a6f5dbe78a8a58655d17b43b93c078f094ddc476ae297"
+    url "https://files.pythonhosted.org/packages/89/6b/2114e54b290824197006e41be3f9bbe1a26e9c39d1f5fa20a6d62945a0b3/Pygments-2.15.1.tar.gz"
+    sha256 "8ace4d3c1dd481894b2005f560ead0f9f19ee64fe983366be1a21e171d12775c"
   end
 
   resource "python-dateutil" do
@@ -97,8 +97,8 @@ class JrnlBeta < Formula
   end
 
   resource "rich" do
-    url "https://files.pythonhosted.org/packages/5e/0e/ef0a49be56dbc4052a086888cd2490e15fcc95b0eda79e9d0e737b1ab93d/rich-13.3.2.tar.gz"
-    sha256 "91954fe80cfb7985727a467ca98a7618e5dd15178cc2da10f553b36a93859001"
+    url "https://files.pythonhosted.org/packages/31/3b/2360352760b436f822258396e66ffb6d42585518a9cde2f93f142e64c5eb/rich-13.3.4.tar.gz"
+    sha256 "b5d573e13605423ec80bdd0cd5f8541f7844a0e71a13f74cf454ccb2f490708b"
   end
 
   resource "ruamel.yaml" do
@@ -117,8 +117,8 @@ class JrnlBeta < Formula
   end
 
   resource "tzdata" do
-    url "https://files.pythonhosted.org/packages/d9/72/e152a44bc74ddac6a3d0a91b1bc2a81826b07772d7dccbb0d492ad7dc256/tzdata-2023.2.tar.gz"
-    sha256 "c3b51b235b07f9f1889089c2264bcbeaaba260a63f89bea09e350ea4205eb95f"
+    url "https://files.pythonhosted.org/packages/70/e5/81f99b9fced59624562ab62a33df639a11b26c582be78864b339dafa420d/tzdata-2023.3.tar.gz"
+    sha256 "11ef1e08e54acb0d4f95bdb1be05da659673de4acbd21bf9c69e94cc5e907a3a"
   end
 
   resource "tzlocal" do
