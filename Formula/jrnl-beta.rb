@@ -3,8 +3,8 @@ class JrnlBeta < Formula
 
   desc "Command-line note taker"
   homepage "https://jrnl.sh/"
-  url "https://files.pythonhosted.org/packages/d0/58/d5ad1533f81ddca23c7dc2e0a4dbe08b59a51a119c5995e49825e21287bd/jrnl-4.0b2.tar.gz"
-  sha256 "365c03d244ce8037ad29871ce7b681b48d8c794fdef42f9614a15287095bea75"
+  url "https://files.pythonhosted.org/packages/d8/8c/ff75fc3a4fe0ce6139039431b615ae60413e6661772e5360b7f0f708a69d/jrnl-4.0b3.tar.gz"
+  sha256 "5e285b9710d82e3f8c723b3b9b53026e4833a1384e3f79934d28e1aeabf749ef"
   license "GPL-3.0-only"
 
   depends_on "rust" => :build
@@ -97,8 +97,8 @@ class JrnlBeta < Formula
   end
 
   resource "rich" do
-    url "https://files.pythonhosted.org/packages/31/3b/2360352760b436f822258396e66ffb6d42585518a9cde2f93f142e64c5eb/rich-13.3.4.tar.gz"
-    sha256 "b5d573e13605423ec80bdd0cd5f8541f7844a0e71a13f74cf454ccb2f490708b"
+    url "https://files.pythonhosted.org/packages/3d/0b/8dd34d20929c4b5e474db2e64426175469c2b7fea5ba71c6d4b3397a9729/rich-13.3.5.tar.gz"
+    sha256 "2d11b9b8dd03868f09b4fffadc84a6a8cda574e40dc90821bd845720ebb8e89c"
   end
 
   resource "ruamel.yaml" do
