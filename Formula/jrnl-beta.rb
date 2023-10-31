@@ -3,8 +3,8 @@ class JrnlBeta < Formula
 
   desc "Command-line note taker"
   homepage "https://jrnl.sh/"
-  url "https://files.pythonhosted.org/packages/c9/ca/3a92f4b6e918bf0856716d101ada977f3a402fb345c4c5a525b268273982/jrnl-4.1b0.tar.gz"
-  sha256 "87662257b1d908413d18619cde8dcc72517370477aa31eb5fbf4033a0153108f"
+  url "https://files.pythonhosted.org/packages/b0/05/af7501647006de8005bce590dd1ae4e20061dfaeee0755d5b6bb56f39edc/jrnl-4.1b2.tar.gz"
+  sha256 "73a0373deafee7cee0ced1e4201bd5e1f73f89553d848715f802008f563d5165"
   license "GPL-3.0-only"
 
   depends_on "rust" => :build
