@@ -8,7 +8,7 @@ class JrnlBeta < Formula
   license "GPL-3.0-only"
 
   depends_on "rust" => :build
-  depends_on "python@3.9"
+  depends_on "python@3.12"
 
   uses_from_macos "expect" => :test
 
